@@ -40,17 +40,17 @@ body {
 
 .beige {
   background-color: #ebecb7;
-  transform: rotate(350deg);
+  rotate: -10deg;
 }
 
 .green {
   background-color: #c5f5c8;
-  transform: rotate(10deg);
+  rotate: 10deg;
 }
 
 .blue {
   background-color: #b4b3d1;
-  transform: rotate(5deg);
+  rotate: 5deg;
 }
 
 .postit {
@@ -74,7 +74,8 @@ body {
 }
 
 .postit:hover {
-  transform: scale(1.4);
+  rotate: 0deg;
+  scale: 1.4;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
   z-index: 2;
 }
